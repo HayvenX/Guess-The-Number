@@ -1,0 +1,76 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.GTN {
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    font-size: 42px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 400px;
+    padding: 24px 24px;
+    border: 1px gray solid;
+    text-align: center;
+}
+
+.hint {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 66px;
+    margin-bottom: 8px;
+}
+    
+h4 {
+    display: inline-block;
+    margin-left: -76px;
+    margin-right: 125px;
+    position: relative;
+    left: 76px;
+    top: 20px;
+}
+
+.your-num {
+    left: 102px;
+}
+
+input {
+    height: 18px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+#minInput, #maxInput {
+    width: 50px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 110px;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 12px;
+    position: relative;
+    top: 5px;
+}
